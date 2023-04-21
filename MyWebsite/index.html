@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>
+            My first webside.  
+        </title>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+    <head>
+   
+    <body style="background-color: lightgrey;">
+    
+    
+            
+        <img id="crown1" src="img/crown.png" width="200" height="200"/>
+        <img id="carrer1" src="img/carrer.png" width="200" height="200"/>
+        <img id="biography1" src="img/biography.png" width="200" heigh="400"/>
+        <img id="deals1" src="img/deals.png" width="200" height="200"/>
+        <img id="family1" src="img/family.png" width="200" height="200"/>
+        <img id="funeral1" src="img/funeral.png" width="200" height="200"/>
+        <img id="knowledge1" src="img/knowledge.png" width="200" height="200"/>
+        <img id="money1" src="img/money.png" width="200" height="200"/>
+        <img id="palace1" src="img/Palace.png" width="200" height="200"/>
+
+        <script>
+            var sound1 = new buzz.sound("sound/crownsound.wav");
+            var sound2 = new buzz.sound("sound/carrersound");
+            var sound3 = new buzz.sound("sound/biographysound");
+            var sound4 = new buzz.sound("sound/dealsound");
+            var sound5 = new buzz.sound("sound/familysound");
+            var sound6 = new buzz.sound("sound/funeralsound)");
+            var sound7 = new buzz.sound("sound/knowledgesound");
+            var sound8 = new buzz.sound("sound/moneysound");
+            var sound9 = new buzz.sound("sound/palacesound");
+    
+            window.onload = function() {
+                document.getElementById('crown1').addEventListener('click', function () {sound1.play();});
+                document.getElementById('carrer1').addEventListener('click', function () {sound2.play();});
+                document.getElementById('biography1').addEventListener('click', function () {sound3.play();});
+                document.getElementById('deals1').addEventListener('click', function () {sound4.play();});
+                document.getElementById('family1').addEventListener('click', function () {sound5.play();});
+                document.getElementById('funeral1').addEventListener('click', function () {sound6.play();});
+                document.getElementById('knowledge1').addEventListener('click', function () {sound7.play();});
+                document.getElementById('money1').addEventListener('click', function () {sound8.play();});
+                document.getElementById('palace1').addEventListener('click', function () {sound9.play();});
+            };     
+        </script>
+        
+    </body>
+
+
+</html>
+    
+
+
+   
+
+
